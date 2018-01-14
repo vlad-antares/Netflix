@@ -1,0 +1,734 @@
+.tvshow_header {
+  float: left;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* background-size: cover; */
+  height: 260px;
+  position: relative; }
+  .back_cont_{
+    float: left;
+    width: 100%;
+    height: 200%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: url('../img/back_2.jpg');
+    position: absolute;
+    background-repeat: no-repeat !important;
+    background-size: 100% auto !important;
+  }
+  .explore_main_wrap{
+    background: none;
+  }
+  .slider_explore{
+    float: left;
+    width: 100%;
+  }
+  .lSSlideOuter{
+    float: left;
+    width: 100%;
+    margin-left: 16px !important;
+  }
+  .tvshow_header .profile_wrapper .overlay_header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    height: 100%;
+}
+  .lSAction>.lSNext{
+    right: 50px !important;
+  }
+  .explore_main_wrap .top_explore{
+    float: left;
+    width: 100%;
+    display: flex;
+    min-height: 75px;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 10px;
+    background-color: #f3f3f3;
+  }
+  .explore_main_wrap .top_explore h1{
+    float: left;
+    text-align: left;
+    color: #191919;
+    font-family: "HNCL";
+    font-size: 24px;
+  }
+  .slider_wrap_cont{
+    float: left;
+    width: 100%;
+    padding-right: 15px;
+    background: #fff;
+    padding-left: 32px;
+  }
+  .overlay_slide_back{
+    float: left;
+    width: 100%;
+    height: 117px;
+    object-fit: cover;
+  }
+  .lightSlider li{
+    position: relative;
+    height:auto !important;
+    display: none;
+  }
+  .profile_slider_one li{
+    display: none;
+  }
+  .lightSlider li .overlay_slide_back img{
+    float: left;
+    width: 100%;
+    height: auto;
+  }
+  .lightSlider li .poster{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 10;
+    width: 65px;
+    height: 87px;
+  }
+  .lightSlider li section{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding-top: 20px;
+    right: 0;
+  }
+  .lightSlider li section .link_cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: left;
+    width: 90%;
+    height: 35px;
+    z-index: 10000000;
+    background-color: #f3f3f3;
+    padding: 0 15px;
+    padding-bottom: 2px;
+  }
+  .lightSlider li section .link_cont a.false{
+    background-color: #d6d6d6;
+    color: #999;
+    z-index: 10000000;
+  }
+  .lightSlider li section .link_cont a.true{
+    background-color: #c31f26;
+    color: #Fff;
+    z-index: 10000000;
+  }
+  .not_found{
+    float: left;
+    width: 100%;
+    background: #fff;
+    height: 175px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+  }
+  .big_wrapp_explore_sliders{
+    float: left;
+    width: 100%;
+    background-color: #f3f3f3;
+  }
+  .not_found p{
+    color: #c8c8c8;
+    font-size: 18px;
+    font-family: "HNCL";
+    padding-top:59px;
+  }
+  .lightSlider {
+    position: relative;
+  }
+  .lightSlider li section .link_cont a{
+    line-height: 22px;
+    text-align: center;
+    color: #fff;
+    padding: 0 10px;
+    font-size: 12px;
+    font-family: "HNCL";
+    border-radius: 50px;
+  }
+  .lightSlider li section article{
+    float: left;
+    width: 100px;
+    margin-left: 90px;
+    padding-right:8px;
+    overflow: hidden;
+  }
+  .lightSlider li section article span{
+    float: left;
+    width: 100%;
+    text-align: left;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'HNCL';
+    z-index: 1000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .lightSlider li section article p{
+    float: left;
+    width: 100%;
+    text-align: left;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'HNCL';
+    line-height: 20px;
+    z-index: 1000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .lightSlider li section .followers{
+    float: left;
+    width: 90%;
+    margin-top: 36px;
+  }
+  .lightSlider li section .followers .count{
+    float: right;
+    color: #fff;
+    font-family: 'HNCL';
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .lightSlider li section .followers ul{
+    float: right;
+    position: relative;
+    height: 21px;
+    min-width: 37px;
+    margin-right: 5px;
+  }
+  .block{
+    position: relative;
+  }
+  .lightSlider li section .followers ul li{
+    height: 21px;
+    display: block;
+    float: left;
+  }
+  .lightSlider li section .followers ul li img{
+    width: 21px;
+    height: 21px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+  }
+  .lightSlider li section .followers ul li:nth-child(n+1){
+    margin-left: -10px;
+  }
+  .lightSlider li section .followers ul li:nth-child(1){
+    margin-left: 3px;
+  }
+  .explore_main_wrap .slider_sect{
+    float: left;
+    width: 100%;
+    background: #fff;
+    padding-bottom: 22px;
+    margin-bottom:15px;
+  }
+  .overlay_slide_back{
+    float: left;
+    width: 90%;
+    background: rgba(0,0,0,0.9);
+  }
+  .slider_sect h4{
+    float: left;
+    width: 100%;
+    text-align: left;
+    color: #191919;
+    font-family: "HNCL";
+    font-size: 18px;
+    line-height: 40px;
+    padding: 10px 30px;
+    padding-bottom:15px;
+  }
+  .explore_main_wrap .top_explore .right_cont button{
+    background: none;
+    border:none;
+    font-size: 24px;
+  }
+  button.filter{
+    margin-right: 10px;
+  }
+  .tvshow_header .header_text_cont {
+    float: left;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto; }
+  .tvshow_header .overlay_header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%; }
+  .tvshow_header .header_img {
+    min-height: 260px;
+    max-height: 100%;
+    height: 100%;
+    float: left;
+    width: 100%;
+    background-attachment: fixed; }
+    .tvshow_header .header_img img {
+      float: left;
+      width: 100%;
+      min-height: 260px;
+      max-width: 100%; }
+  .tvshow_header .header_hidden {
+    float: left;
+    width: 100%;
+    max-height: 300px;
+    overflow: hidden;
+    transition: max-height .2s ease-in-out; }
+  .tvshow_header .parallax-window {
+    min-height: 400px;
+    background: transparent; }
+  .tvshow_header h1 {
+    font-size: 48px;
+    color: #fff;
+    font-family: 'HNCB';
+    text-align: center; }
+  .tvshow_header ul {
+    float: left;
+    width: 100%;
+    margin-top: 18px; }
+    .tvshow_header ul li {
+      float: left;
+      width: 100%;
+      text-align: center; }
+      .tvshow_header ul li a {
+        display: inline-block;
+        width: 255px;
+        line-height: 35px;
+        border-radius: 50px;
+        font-size: 15px;
+        font-family: 'HNCB';
+        text-transform: uppercase;
+        position: relative;
+        color: #000;
+        padding-left: 10px; }
+        .tvshow_header ul li a:hover, .tvshow_header ul li a:focus, .tvshow_header ul li a:active {
+          text-decoration: none; }
+        .tvshow_header ul li a span {
+          border-right: 1px solid #222;
+          float: left;
+          line-height: 33px;
+          position: absolute;
+          top: 0px;
+          left: 15px; }
+          .tvshow_header ul li a span i {
+            line-height: 35px;
+            padding-right: 10px; }
+      .tvshow_header ul li .add {
+        color: #333333;
+        background: #fff; }
+        .tvshow_header ul li .add i {
+          color: #333333;
+          font-size: 18px;
+          padding-right: 7px; }
+      .tvshow_header ul li .watch {
+        color: #fff;
+        background: #c31f26;
+        margin-top: 15px; }
+        .tvshow_header ul li .watch i {
+          color: #fff; }
+
+.main_tv {
+  width: 100%;
+  float: right;
+  position: relative; }
+  .body{
+    padding-left: 225px;
+  }
+
+.episode_header {
+  float: left;
+  width: 100%; }
+  .episode_header .tvshow_header {
+    background: none; }
+
+.header_slider {
+  float: left;
+  width: 100%; }
+
+
+  .episode_cont  .tvshow_header {
+  float: left;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* background-size: cover; */
+  height: 260px;
+  position: relative; }
+  .episode_cont .back_cont_{
+    float: left;
+    width: 100%;
+    height: 200%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: url('../img/back.png');
+    position: absolute;
+    background-repeat: no-repeat !important;
+    background-size: 100% auto !important;
+  }
+
+  .episode_cont .tvshow_header h3 {
+    color: #f3f3f3;
+    font-family: "HNCM";
+    font-weight: 700;
+    line-height: 32px;
+    font-size: 26px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    float: left;
+    margin-top: 15px; }
+  .episode_cont .tvshow_header h1 {
+    float: left;
+    width: 100%;
+    margin-top: -3px;
+    margin-bottom: 0; }
+
+.episode_cont .tvshow_header ul {
+  float: left;
+  width: 100%;
+  margin-top: 30px; }
+
+.episode_cont h1 {
+  margin-bottom: 15px; }
+
+.icon_left-arrow {
+  color: #fff;
+  font-family: "HNCB";
+  font-size: 24px;
+  text-transform: uppercase;
+  text-indent: inherit !important;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 100000000;
+  left: 0;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  left: 10px;
+  padding-left: 5px; }
+  .icon_left-arrow:hover, .icon_left-arrow:focus, .icon_left-arrow:active {
+    color: #fff;
+    text-decoration: none; }
+
+.icon_right-arrow {
+  color: #fff;
+  font-family: "HNCB";
+  font-size: 24px;
+  text-transform: uppercase;
+  text-indent: inherit !important;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 100000000;
+  right: 0;
+  display: flex  !important;
+  justify-content: center;
+  align-items: center;
+  right: 10px;
+  padding-right: 5px; }
+  .icon_right-arrow:hover, .icon_right-arrow:focus, .icon_right-arrow:active {
+    color: #fff;
+    text-decoration: none; }
+.search_user_page .explore_main_wrap .top_explore {
+  min-height: 74px;
+}
+.search_user_page .calendar_left_cont .data_cont{
+  margin-top:0;
+}
+.search_user_page .calendar_left_cont .data_cont ul li{
+  padding-top:4px;
+  padding-bottom:4px;
+  min-height: 96px;
+}
+.search_user_page{
+  padding-bottom: 40px;
+}
+.explore_main_wrap .top_explore{
+  min-height: 63px;
+}
+.explore_main_wrap .top_explore {
+    min-height: 75px;
+}
+
+@media (min-width: 1921px) {
+  .tvshow_header, .episode_cont .tvshow_header {
+    background-size: 100% auto; } }
+@media (max-width: 1600px) {
+  .tvshow_header, .episode_cont .tvshow_header {
+    background-size: 1370px auto; }
+    .lightSlider li section article{
+      width: 170px;
+     }
+    }
+@media (max-width: 1440px) {
+    .slider_wrap_cont {
+    float: left;
+    width: 100%;
+    padding-right: 15px;
+    background: #fff;
+    padding-left: 30px;
+}
+    .lightSlider li section .followers ul {
+        float: right;
+        position: relative;
+        height: 21px;
+        min-width: 37px;
+      }
+
+      .episode_cont .back_cont_{
+        float: left;
+        width: 100%;
+        height: 200%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        position: absolute;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+      }
+  .lightSlider li section article {
+    width: 120px;
+  }
+  .tvshow_header, .episode_cont .tvshow_header {
+    background-size: 1200px auto; } }
+@media (max-width: 1199px) {
+  .tvshow_header div {
+    float: none;
+    margin-left: 0; }
+
+  .overlay_slide_back{
+      float: left;
+      width: 92.5%;
+      height: 117px;
+      object-fit: fill;
+    }
+    .lightSlider li section{
+      padding-right: 0;
+    }
+    .lightSlider li section .link_cont {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      float: left;
+      width: 92.5%;
+    }
+    .lightSlider li section .followers ul {
+    float: right;
+    position: relative;
+    height: 21px;
+    min-width: 37px;
+    margin-right: 35px;
+}
+.lightSlider li .poster {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 10;
+    width: 55px;
+    height: 77px;
+}
+  .tvshow_header {
+    justify-content: center; }
+
+  .tvshow_header, .episode_cont .tvshow_header {
+    background-size: 960px auto; } }
+    @media (max-width:1170px ){
+      .lightSlider li section article span{
+        width: 57%;
+      }
+      .fa-arrow-right {
+    top: 50px;
+    right: 23px;
+}
+.lightSlider li section .link_cont a{
+  font-size: 11px;
+}
+    }
+@media (max-width: 1020px){
+  .lightSlider li section article span{
+    width: 57%;
+  }
+/* the parent */
+.slick-list {
+    margin: 0 -10px;
+}
+
+}
+@media (max-width: 991px) {
+    .body{
+      padding-left: 180px;
+    }
+
+  .tvshow_header, .episode_cont .tvshow_header {
+    background-size: cover;
+    background-attachment: inherit;
+    background-position-x: center; }
+    .back_cont_{
+      background-size: contain;
+      }
+      .back_cont_ {
+        float: left;
+        width: 100%;
+        height: 200%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        position: absolute;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+}
+.lightSlider li section article {
+    width: 140px;
+    margin-left: 70px;
+}
+
+}
+@media (max-width: 767px) {
+    .body{
+      padding-left: 0;
+    }
+    .tvshow_header h1{
+      font-size: 30px;
+    }
+    .right_cont{
+      padding-right: 60px;
+    }
+    .big_wrapp_explore_sliders{
+      padding-bottom: 40px;
+    }
+    .slider_wrap_cont {
+    float: left;
+    width: 100%;
+    padding-right: 15px;
+    background: #fff;
+    padding-left: 35px;
+}
+
+  .tvshow_header {
+    max-height: 260px;
+        background-size: cover; }
+        .slider_sect h4{
+          padding: 10px 35px;
+        }
+        .episode_cont  .tvshow_header{
+          min-height: 260px;
+          max-height: none;
+          height: auto;
+        }
+        .search_user_page .calendar_left_cont .data_cont ul li{
+          min-height: inherit;
+        }
+        .search_user_page #calendar_page_input img {
+      width: 45px;
+      height: 45px;
+      border-radius: 100%;
+  }
+  .followers_page .calendar_left_cont .data_cont ul li a{
+    padding: 0 10px;
+    font-size: 14px;
+  }
+  .followers_page .calendar_left_cont .data_cont ul li a{
+    line-height: 20px;
+  }
+  .lightSlider li .poster {
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    z-index: 10;
+    width: 55px;
+    height: 77px;
+}
+
+ }
+
+@media (max-width: 500px){
+  .tvshow_header {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+  }
+  .lightSlider li section article p {
+    float: right;
+    width: 65%;
+}
+.slider_wrap_cont {
+    float: left;
+    width: 100%;
+    padding-right: 15px;
+    background: #fff;
+    padding-left: 15px;
+}
+.slider_sect h4{
+          padding: 10px 15px;
+        }
+.horizontal_scroll{
+  width: 100%;
+}
+.slider_wrap_cont{
+  position: relative;
+}
+.lightSlider li section article span {
+    float: left;
+    width: 64%;
+    }
+    .lightSlider li section .followers ul {
+    float: right;
+    position: relative;
+    height: 21px;
+    min-width: 37px;
+    margin-right: 5px;
+}
+.lightSlider li section .link_cont{
+  padding: 0 5px;
+  }
+  .lightSlider li section .link_cont a{
+    font-size: 10px;
+    padding: 0 5px;
+  }
+  .slick-initialized .slick-slide {
+      display: block;
+      margin-right: -10px !important;
+  }
+  .fa-arrow-right {
+    top: 50px;
+    right: 24px !important;
+  }
+
+  .lightSlider li section article span, .lightSlider li section article p{
+    width: 100%;
+  }
+  .lightSlider{
+    width: auto !important;
+  }
+  .slick-arrow{
+    display: none !important;
+  }
+  .slider_sect h4 {
+    padding: 10px 22px;
+}
+.lightSlider li section article{
+  width: 60%;
+}
+}
+
+/*# sourceMappingURL=header.css.map */
